@@ -120,3 +120,62 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .bg-aqi-good {
+    background-color: hsl(var(--aqi-good));
+  }
+  .bg-aqi-moderate {
+    background-color: hsl(var(--aqi-moderate));
+  }
+  .bg-aqi-sensitive {
+    background-color: hsl(var(--aqi-sensitive));
+  }
+  .bg-aqi-unhealthy {
+    background-color: hsl(var(--aqi-unhealthy));
+  }
+  .bg-aqi-very {
+    background-color: hsl(var(--aqi-very));
+  }
+  .bg-aqi-hazardous {
+    background-color: hsl(var(--aqi-hazardous));
+  }
+
+  .text-aqi-good {
+    color: hsl(var(--aqi-good));
+  }
+  .text-aqi-moderate {
+    color: hsl(var(--aqi-moderate));
+  }
+  .text-aqi-sensitive {
+    color: hsl(var(--aqi-sensitive));
+  }
+  .text-aqi-unhealthy {
+    color: hsl(var(--aqi-unhealthy));
+  }
+  .text-aqi-very {
+    color: hsl(var(--aqi-very));
+  }
+  .text-aqi-hazardous {
+    color: hsl(var(--aqi-hazardous));
+  }
+
+  .border-aqi-good {
+    border-color: hsl(var(--aqi-good));
+  }
+  .border-aqi-moderate {
+    border-color: hsl(var(--aqi-moderate));
+  }
+  .border-aqi-sensitive {
+    border-color: hsl(var(--aqi-sensitive));
+  }
+  .border-aqi-unhealthy {
+    border-color: hsl(var(--aqi-unhealthy));
+  }
+  .border-aqi-very {
+    border-color: hsl(var(--aqi-very));
+  }
+  .border-aqi-hazardous {
+    border-color: hsl(var(--aqi-hazardous));
+  }
+}
