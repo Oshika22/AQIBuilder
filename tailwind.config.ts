@@ -57,6 +57,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        aqi: {
+          good: "hsl(var(--aqi-good))",
+          moderate: "hsl(var(--aqi-moderate))",
+          sensitive: "hsl(var(--aqi-sensitive))",
+          unhealthy: "hsl(var(--aqi-unhealthy))",
+          very: "hsl(var(--aqi-very))",
+          hazardous: "hsl(var(--aqi-hazardous))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
