@@ -54,6 +54,14 @@
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* AQI Color Scheme */
+    --aqi-good: 120 50% 50%;
+    --aqi-moderate: 60 100% 50%;
+    --aqi-sensitive: 39 100% 60%;
+    --aqi-unhealthy: 0 100% 60%;
+    --aqi-very: 300 50% 40%;
+    --aqi-hazardous: 315 100% 25%;
   }
 
   .dark {
