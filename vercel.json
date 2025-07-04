@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/spa/index.html" },
+    { "source": "/(.*)", "destination": "/spa/$1" }
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rootDirectory": "client"
+}
